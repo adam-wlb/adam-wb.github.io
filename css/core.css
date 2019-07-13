@@ -1,5 +1,17 @@
+/* h1, h2, h3, h4, h5, h6 {
+    color: goldenrod;
+} */
+ 
+/* p {
+    color: whitesmoke;
+} */
+
 .wrapper {
     padding: 10px;
+    /* background-color: black; */
+}
+.jumbotron {
+    background-color: black;
 }
 
 .jumbotron h1 {
@@ -13,6 +25,10 @@
 
 .jumbotron p {
     text-align: center;
+}
+
+.grade {
+    font-weight: bold;
 }
 
 #portrait {
