@@ -1,17 +1,23 @@
 h1, h2, h3, h4, h5 {
     color: goldenrod;
 }
- 
-/* p {
-    color: whitesmoke;
-} */
+
+.jumbotron {
+    background-color: rgb(30, 32, 34);
+}
+
+.jumbotron > p {
+    color: rgb(218, 215, 210);
+    text-align: center;
+}
 
 .wrapper {
     padding: 10px;
-    /* background-color: black; */
+    background-color: #212529;
 }
-.jumbotron {
-    /* background-color: black; */
+
+p {
+    color: #e8e6e3
 }
 
 .jumbotron h1 {
@@ -23,19 +29,19 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
-.jumbotron p {
-    text-align: center;
-}
-
 .grade {
     font-weight: bold;
 }
 
 #portrait {
-    width: 50%;
+    width: 55%;
+    margin: auto;
+    display: block
 }
 
 #linkedin-logo, #github-logo {
     min-height: 21px;
     max-height: 64px;
+    margin: auto;
+    display: block;
 }
