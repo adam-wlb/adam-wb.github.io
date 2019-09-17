@@ -1,6 +1,6 @@
-/* h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     color: goldenrod;
-} */
+}
  
 /* p {
     color: whitesmoke;
@@ -11,7 +11,7 @@
     /* background-color: black; */
 }
 .jumbotron {
-    background-color: black;
+    /* background-color: black; */
 }
 
 .jumbotron h1 {
@@ -32,6 +32,10 @@
 }
 
 #portrait {
-    align-content: center;
     width: 50%;
+}
+
+#linkedin-logo, #github-logo {
+    min-height: 21px;
+    max-height: 64px;
 }
