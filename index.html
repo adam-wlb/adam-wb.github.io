@@ -18,20 +18,27 @@
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <a id="logo" href="#">AB</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <a id="logo" href="#">AB</a>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#about">About</a>
-                <a class="nav-item nav-link" href="#experience">Experience</a>
-                <a class="nav-item nav-link" href="#education">Education</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+            </ul>
         </div>
     </nav>
+
     <div class="wrapper">
         <div class="jumbotron">
             <h1 class="display-3">Adam Barron</h1>
@@ -56,8 +63,11 @@
             <section id="about"></section>
             <h1>About me</h1>
             <div class="container">
-                <h5 id="testimonial">As a software developer, I've always preferred to make things digital where possible. This website is
-                    my attempt to make my CV more exciting and dynamic. I wanted to easily provide links to my projects and achievement and emphasise my key skills, without ending up with a cluttered multi-page document. It also serves as a fun web project to
+                <h5 id="testimonial">As a software developer, I've always preferred to make things digital where
+                    possible. This website is
+                    my attempt to make my CV more exciting and dynamic. I wanted to easily provide links to my projects
+                    and achievement and emphasise my key skills, without ending up with a cluttered multi-page document.
+                    It also serves as a fun web project to
                     keep me busy!</h5>
             </div>
         </div>
