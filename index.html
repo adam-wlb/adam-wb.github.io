@@ -17,8 +17,22 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a id="logo" href="#">AB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#experience">Experience</a>
+                <a class="nav-item nav-link" href="#education">Education</a>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
         <div class="jumbotron">
             <h1 class="display-3">Adam Barron</h1>
             <p>Final year computer science student at Newcastle University. Former IBM intern software developer.</p>
@@ -39,8 +53,19 @@
         </div>
 
         <div class="container">
+            <section id="about"></section>
+            <h1>About me</h1>
+            <div class="container">
+                <h5 id="testimonial">As a software developer, I've always preferred to make things digital where possible. This website is
+                    my attempt to make my CV more exciting and dynamic. I wanted to easily provide links to my projects and achievement and emphasise my key skills, without ending up with a cluttered multi-page document. It also serves as a fun web project to
+                    keep me busy!</h5>
+            </div>
+        </div>
+
+        <div class="container">
+            <section id="experience"></section>
             <h1>Experience</h1>
-            <div class="container-fluid">
+            <div class="container">
                 <h2>Placement Year - IBM Hursley</h2>
                 <h3>Software Developer: 2018 - 2019</h3>
                 <h4>Core role</h4>
@@ -120,8 +145,9 @@
         </div>
 
         <div class="container">
+            <section id="education"></section>
             <h1>Education</h1>
-            <div class="container-fluid">
+            <div class="container">
                 <h2>Newcastle University</h2>
                 <h3>Computer Science with Industrial Placement BSc Honours: 2016 - 2020</h3>
                 <h4>Second year average: <span class="grade">83.5%</span></h4>
@@ -178,7 +204,9 @@
                             have arisen within computer science.</p>
                         <p>Key skills: Ethics in Computer Science, Personal development</p>
                         <h5>Computer Architecture - <span class="grade">84%</span></h5>
-                        <p>Some module info</p>
+                        <p>Studied low level architecture concepts such as logic gates and processor architecture.
+                            Completed coursework in
+                            Assembler using an 8086 processor emulator.</p>
                         <p>Key skills: x86 Assembler, Low level hardware concepts</p>
                     </div>
                     <div class="col-lg-4">
@@ -192,14 +220,15 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container">
                 <h2>Sunderland College</h2>
                 <h3>A Levels: 2013 - 2015</h3>
                 <h4>A Levels</h4>
                 <div class="row">
                     <div class="col-lg-4">
                         <h5>Computing - <span class="grade">A</span></h5>
-                        <p>Learned a variety of practical programming skills through a procedural Visual Basic environment. Completed a lengthy
+                        <p>Learned a variety of practical programming skills through a procedural Visual Basic
+                            environment. Completed a lengthy
                             project in second year for a real client following waterfall methodology.</p>
                     </div>
                     <div class="col-lg-4">
@@ -215,18 +244,20 @@
                     <div class="col-lg-4">
                         <h4>AS Level</h4>
                         <h5>Chemistry - <span class="grade">B</span></h5>
-                        <p>One year of chemistry, covering various reactions, atomic structure and real-world applications.</p>
+                        <p>One year of chemistry, covering various reactions, atomic structure and real-world
+                            applications.</p>
                     </div>
                     <div class="col-lg-8">
                         <h4>Extended Project Qualification</h4>
                         <h5>Future Impact of Automation and Artificial Intelligence - <span class="grade">A</span>
                         </h5>
-                        <p>Researched and referenced essay on the impact of automation in the job market, discussing which jobs are at risk and
+                        <p>Researched and referenced essay on the impact of automation in the job market, discussing
+                            which jobs are at risk and
                             how it may change the economy in both the short and long term.</p>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container">
                 <h2>Monkwearmouth Academy</h2>
                 <h3>GCSEs: 2009 - 2014</h3>
                 <div class="row">
