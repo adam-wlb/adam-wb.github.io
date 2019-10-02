@@ -8,7 +8,7 @@ section {
 }
 
 h1, h2, h3, h4, h5 {
-    color: goldenrod;
+    color: rgb(212, 137, 54);
 }
 
 .jumbotron {
@@ -44,7 +44,7 @@ p {
 
 #logo {
     font-size: 20px;
-    color: goldenrod;
+    color: rgb(212, 137, 54);
     margin-right: 16px;
     padding: 5px, 0px;
 }
